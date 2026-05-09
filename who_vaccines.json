@@ -1,0 +1,359 @@
+{
+  "version": "2025-12-01",
+  "schema_version": 2,
+  "source": "WHO Table 2: Recommended Routine Immunizations for Children (December 2025)",
+  "source_url": "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+  "last_updated": "2025-12-01",
+  "vaccines": [
+    {
+      "id": "who_bcg_001",
+      "name": "BCG",
+      "status": "active",
+      "age_months": 0,
+      "age_label": "Birth",
+      "description": "Tuberculosis (BCG)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_hepb_birth_002",
+      "name": "Hepatitis B (Birth)",
+      "status": "active",
+      "age_months": 0,
+      "age_label": "Birth",
+      "description": "Hepatitis B first dose (within 24h)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_opv_birth_003",
+      "name": "OPV (Birth)",
+      "status": "active",
+      "age_months": 0,
+      "age_label": "Birth",
+      "description": "Oral Polio Vaccine birth dose (endemic countries)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_dtp1_004",
+      "name": "DTP-1",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "6 weeks",
+      "description": "Diphtheria, Tetanus, Pertussis dose 1",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_bopv1_005",
+      "name": "bOPV-1",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "6 weeks",
+      "description": "Oral Polio Vaccine (bOPV) dose 1",
+      "replaces": "who_opv1_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_hib1_006",
+      "name": "Hib-1",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "6 weeks",
+      "description": "Haemophilus influenzae type b dose 1",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_pcv1_007",
+      "name": "PCV-1",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "6 weeks",
+      "description": "Pneumococcal Conjugate Vaccine dose 1",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_rota1_008",
+      "name": "Rotavirus-1",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "6 weeks",
+      "description": "Rotavirus vaccine dose 1",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_dtp2_009",
+      "name": "DTP-2",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "10 weeks",
+      "description": "Diphtheria, Tetanus, Pertussis dose 2",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_bopv2_010",
+      "name": "bOPV-2",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "10 weeks",
+      "description": "Oral Polio Vaccine (bOPV) dose 2",
+      "replaces": "who_opv2_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_hib2_011",
+      "name": "Hib-2",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "10 weeks",
+      "description": "Haemophilus influenzae type b dose 2",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_pcv2_012",
+      "name": "PCV-2",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "10 weeks",
+      "description": "Pneumococcal Conjugate Vaccine dose 2",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_rota2_013",
+      "name": "Rotavirus-2",
+      "status": "active",
+      "age_months": 2,
+      "age_label": "10 weeks",
+      "description": "Rotavirus vaccine dose 2",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_dtp3_014",
+      "name": "DTP-3",
+      "status": "active",
+      "age_months": 4,
+      "age_label": "14 weeks",
+      "description": "Diphtheria, Tetanus, Pertussis dose 3",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_bopv3_015",
+      "name": "bOPV-3",
+      "status": "active",
+      "age_months": 4,
+      "age_label": "14 weeks",
+      "description": "Oral Polio Vaccine (bOPV) dose 3",
+      "replaces": "who_opv3_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_ipv1_016",
+      "name": "IPV-1",
+      "status": "active",
+      "age_months": 4,
+      "age_label": "14 weeks",
+      "description": "Inactivated Polio Vaccine dose 1",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_hib3_017",
+      "name": "Hib-3",
+      "status": "active",
+      "age_months": 4,
+      "age_label": "14 weeks",
+      "description": "Haemophilus influenzae type b dose 3",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_pcv3_018",
+      "name": "PCV-3",
+      "status": "active",
+      "age_months": 4,
+      "age_label": "14 weeks",
+      "description": "Pneumococcal Conjugate Vaccine dose 3",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_hepb2_019",
+      "name": "Hepatitis B-2",
+      "status": "active",
+      "age_months": 4,
+      "age_label": "14 weeks",
+      "description": "Hepatitis B second dose (with DTP3)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_ipv2_020",
+      "name": "IPV-2",
+      "status": "active",
+      "age_months": 6,
+      "age_label": "6–9 months",
+      "description": "Inactivated Polio Vaccine dose 2",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_mcv1_021",
+      "name": "MCV-1 (Measles)",
+      "status": "active",
+      "age_months": 9,
+      "age_label": "9 months",
+      "description": "Measles-containing vaccine dose 1",
+      "replaces": "who_measles1_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_rubella_022",
+      "name": "Rubella",
+      "status": "active",
+      "age_months": 9,
+      "age_label": "9 months",
+      "description": "Rubella (given with MCV1 as MR vaccine)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_typhoid_023",
+      "name": "Typhoid (TCV)",
+      "status": "active",
+      "age_months": 9,
+      "age_label": "9 months",
+      "description": "Typhoid Conjugate Vaccine (TCV)",
+      "replaces": "who_typhoid_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_yf_024",
+      "name": "Yellow Fever",
+      "status": "active",
+      "age_months": 9,
+      "age_label": "9–12 months",
+      "description": "Yellow Fever (endemic countries only)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_hepa1_025",
+      "name": "Hepatitis A-1",
+      "status": "active",
+      "age_months": 12,
+      "age_label": "12 months",
+      "description": "Hepatitis A dose 1 (≥12 months)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_varicella1_026",
+      "name": "Varicella-1",
+      "status": "active",
+      "age_months": 12,
+      "age_label": "12 months",
+      "description": "Chickenpox (Varicella) dose 1",
+      "replaces": "who_varicella_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_mcv2_027",
+      "name": "MCV-2 (MMR)",
+      "status": "active",
+      "age_months": 15,
+      "age_label": "15–18 months",
+      "description": "MMR (Measles, Mumps, Rubella) dose 2",
+      "replaces": "who_mmr2_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_dtp_boost1_028",
+      "name": "DTP Booster-1",
+      "status": "active",
+      "age_months": 15,
+      "age_label": "12–23 months",
+      "description": "DTP booster dose 1 (second year of life)",
+      "replaces": "who_dtp_booster_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_pcv_boost_029",
+      "name": "PCV Booster",
+      "status": "active",
+      "age_months": 15,
+      "age_label": "9–18 months",
+      "description": "Pneumococcal booster (2p+1 schedule)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_varicella2_030",
+      "name": "Varicella-2",
+      "status": "active",
+      "age_months": 16,
+      "age_label": "15–18 months",
+      "description": "Chickenpox (Varicella) dose 2",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_hepa2_031",
+      "name": "Hepatitis A-2",
+      "status": "active",
+      "age_months": 18,
+      "age_label": "18–24 months",
+      "description": "Hepatitis A dose 2",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_dtp_boost2_032",
+      "name": "DTP Booster-2",
+      "status": "active",
+      "age_months": 48,
+      "age_label": "4–7 years",
+      "description": "Td booster dose 2 (pre-school)",
+      "replaces": "who_dtp4_old",
+      "splits_from": null
+    },
+    {
+      "id": "who_hpv1_033",
+      "name": "HPV-1",
+      "status": "active",
+      "age_months": 108,
+      "age_label": "9+ years",
+      "description": "Human Papillomavirus dose 1 (girls, from 9 yrs)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_hpv2_034",
+      "name": "HPV-2",
+      "status": "active",
+      "age_months": 114,
+      "age_label": "9–14 years",
+      "description": "Human Papillomavirus dose 2 (6–12 months after dose 1)",
+      "replaces": null,
+      "splits_from": null
+    },
+    {
+      "id": "who_td_boost_035",
+      "name": "Td Booster",
+      "status": "active",
+      "age_months": 132,
+      "age_label": "9–15 years",
+      "description": "Tetanus-Diphtheria booster (Td), adolescence",
+      "replaces": "who_tdap_old",
+      "splits_from": null
+    }
+  ]
+}
