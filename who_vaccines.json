@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-16",
+  "version": "2026-05-16-test",
   "schema_version": 4,
   "last_updated": "2026-05-16",
   "note": "Update version date whenever you change anything. App auto-fetches within 24h.",
@@ -15,7 +15,7 @@
           "age_months": 0,
           "age_label": "At Birth",
           "duration_label": "First Visit",
-          "description": "Tuberculosis — within 24h of birth",
+          "description": "Tuberculosis \u2014 within 24h of birth",
           "status": "active"
         },
         {
@@ -24,7 +24,7 @@
           "age_months": 0,
           "age_label": "At Birth",
           "duration_label": "First Visit",
-          "description": "Oral Polio Vaccine — zero dose",
+          "description": "Oral Polio Vaccine \u2014 zero dose",
           "status": "active"
         },
         {
@@ -33,7 +33,7 @@
           "age_months": 0,
           "age_label": "At Birth",
           "duration_label": "First Visit",
-          "description": "Hepatitis B — first dose",
+          "description": "Hepatitis B \u2014 first dose",
           "status": "active"
         },
         {
@@ -177,7 +177,97 @@
           "age_months": 15,
           "age_label": "15 months",
           "duration_label": "Sixth Visit",
-          "description": "Measles-Rubella dose 2 — final",
+          "description": "Measles-Rubella dose 2 \u2014 final",
+          "status": "active"
+        },
+        {
+          "id": "pk_test_6w",
+          "name": "Test Vaccine",
+          "age_months": 2,
+          "age_label": "6 weeks",
+          "duration_label": "Second Visit",
+          "description": "Test vaccine added to existing 6 weeks visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test1_8w",
+          "name": "Test-1",
+          "age_months": 2,
+          "age_label": "8 weeks",
+          "duration_label": "Test Visit A",
+          "description": "Test vaccine 1 for 8 weeks visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test2_8w",
+          "name": "Test-2",
+          "age_months": 2,
+          "age_label": "8 weeks",
+          "duration_label": "Test Visit A",
+          "description": "Test vaccine 2 for 8 weeks visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test3_8w",
+          "name": "Test-3",
+          "age_months": 2,
+          "age_label": "8 weeks",
+          "duration_label": "Test Visit A",
+          "description": "Test vaccine 3 for 8 weeks visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test1_10m",
+          "name": "Test-1",
+          "age_months": 10,
+          "age_label": "10 months",
+          "duration_label": "Test Visit B",
+          "description": "Test vaccine 1 for 10 months visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test2_10m",
+          "name": "Test-2",
+          "age_months": 10,
+          "age_label": "10 months",
+          "duration_label": "Test Visit B",
+          "description": "Test vaccine 2 for 10 months visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test3_10m",
+          "name": "Test-3",
+          "age_months": 10,
+          "age_label": "10 months",
+          "duration_label": "Test Visit B",
+          "description": "Test vaccine 3 for 10 months visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test1_18m",
+          "name": "Test-1",
+          "age_months": 18,
+          "age_label": "18 months",
+          "duration_label": "Test Visit C",
+          "description": "Test vaccine 1 for 18 months visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test2_18m",
+          "name": "Test-2",
+          "age_months": 18,
+          "age_label": "18 months",
+          "duration_label": "Test Visit B",
+          "description": "Test vaccine 2 for 18 months visit",
+          "status": "active"
+        },
+        {
+          "id": "pk_test3_18m",
+          "name": "Test-3",
+          "age_months": 18,
+          "age_label": "18 months",
+          "duration_label": "Test Visit C",
+          "description": "Test vaccine 3 for 18 months visit",
           "status": "active"
         }
       ]
@@ -187,34 +277,258 @@
       "source": "WHO Table 2: Recommended Routine Immunizations for Children (December 2025)",
       "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
       "vaccines": [
-        {"id":"who_bcg_001",         "name":"BCG",                "age_months":0,   "age_label":"Birth",        "duration_label":"1st Visit",  "description":"Tuberculosis (BCG)",                                        "status":"active"},
-        {"id":"who_hepb_birth_002",  "name":"Hepatitis B (Birth)","age_months":0,   "age_label":"Birth",        "duration_label":"1st Visit",  "description":"Hepatitis B first dose (within 24h)",                       "status":"active"},
-        {"id":"who_opv_birth_003",   "name":"OPV (Birth)",        "age_months":0,   "age_label":"Birth",        "duration_label":"1st Visit",  "description":"Oral Polio Vaccine birth dose",                             "status":"active"},
-        {"id":"who_dtp1_004",        "name":"DTP-1",              "age_months":2,   "age_label":"6 weeks",      "duration_label":"2nd Visit",  "description":"Diphtheria, Tetanus, Pertussis dose 1",                     "status":"active"},
-        {"id":"who_bopv1_005",       "name":"bOPV-1",             "age_months":2,   "age_label":"6 weeks",      "duration_label":"2nd Visit",  "description":"Oral Polio Vaccine (bOPV) dose 1",                          "status":"active"},
-        {"id":"who_hib1_006",        "name":"Hib-1",              "age_months":2,   "age_label":"6 weeks",      "duration_label":"2nd Visit",  "description":"Haemophilus influenzae type b dose 1",                      "status":"active"},
-        {"id":"who_pcv1_007",        "name":"PCV-1",              "age_months":2,   "age_label":"6 weeks",      "duration_label":"2nd Visit",  "description":"Pneumococcal Conjugate Vaccine dose 1",                     "status":"active"},
-        {"id":"who_rota1_008",       "name":"Rotavirus-1",        "age_months":2,   "age_label":"6 weeks",      "duration_label":"2nd Visit",  "description":"Rotavirus vaccine dose 1",                                  "status":"active"},
-        {"id":"who_dtp2_009",        "name":"DTP-2",              "age_months":3,   "age_label":"10 weeks",     "duration_label":"3rd Visit",  "description":"Diphtheria, Tetanus, Pertussis dose 2",                     "status":"active"},
-        {"id":"who_bopv2_010",       "name":"bOPV-2",             "age_months":3,   "age_label":"10 weeks",     "duration_label":"3rd Visit",  "description":"Oral Polio Vaccine (bOPV) dose 2",                          "status":"active"},
-        {"id":"who_hib2_011",        "name":"Hib-2",              "age_months":3,   "age_label":"10 weeks",     "duration_label":"3rd Visit",  "description":"Haemophilus influenzae type b dose 2",                      "status":"active"},
-        {"id":"who_pcv2_012",        "name":"PCV-2",              "age_months":3,   "age_label":"10 weeks",     "duration_label":"3rd Visit",  "description":"Pneumococcal Conjugate Vaccine dose 2",                     "status":"active"},
-        {"id":"who_rota2_013",       "name":"Rotavirus-2",        "age_months":3,   "age_label":"10 weeks",     "duration_label":"3rd Visit",  "description":"Rotavirus vaccine dose 2",                                  "status":"active"},
-        {"id":"who_dtp3_014",        "name":"DTP-3",              "age_months":4,   "age_label":"14 weeks",     "duration_label":"4th Visit",  "description":"Diphtheria, Tetanus, Pertussis dose 3",                     "status":"active"},
-        {"id":"who_bopv3_015",       "name":"bOPV-3",             "age_months":4,   "age_label":"14 weeks",     "duration_label":"4th Visit",  "description":"Oral Polio Vaccine (bOPV) dose 3",                          "status":"active"},
-        {"id":"who_ipv1_016",        "name":"IPV-1",              "age_months":4,   "age_label":"14 weeks",     "duration_label":"4th Visit",  "description":"Inactivated Polio Vaccine dose 1",                          "status":"active"},
-        {"id":"who_hib3_017",        "name":"Hib-3",              "age_months":4,   "age_label":"14 weeks",     "duration_label":"4th Visit",  "description":"Haemophilus influenzae type b dose 3",                      "status":"active"},
-        {"id":"who_pcv3_018",        "name":"PCV-3",              "age_months":4,   "age_label":"14 weeks",     "duration_label":"4th Visit",  "description":"Pneumococcal Conjugate Vaccine dose 3",                     "status":"active"},
-        {"id":"who_mcv1_021",        "name":"MCV-1 (Measles)",    "age_months":9,   "age_label":"9 months",     "duration_label":"5th Visit",  "description":"Measles-containing vaccine dose 1",                         "status":"active"},
-        {"id":"who_rubella_022",     "name":"Rubella",            "age_months":9,   "age_label":"9 months",     "duration_label":"5th Visit",  "description":"Rubella (given with MCV1 as MR vaccine)",                   "status":"active"},
-        {"id":"who_typhoid_023",     "name":"Typhoid (TCV)",      "age_months":9,   "age_label":"9 months",     "duration_label":"5th Visit",  "description":"Typhoid Conjugate Vaccine (TCV)",                           "status":"active"},
-        {"id":"who_hepa1_025",       "name":"Hepatitis A-1",      "age_months":12,  "age_label":"12 months",    "duration_label":"6th Visit",  "description":"Hepatitis A dose 1 (12 months+)",                           "status":"active"},
-        {"id":"who_varicella1_026",  "name":"Varicella-1",        "age_months":12,  "age_label":"12 months",    "duration_label":"6th Visit",  "description":"Chickenpox (Varicella) dose 1",                             "status":"active"},
-        {"id":"who_mcv2_027",        "name":"MCV-2 (MMR)",        "age_months":15,  "age_label":"15-18 months", "duration_label":"7th Visit",  "description":"MMR (Measles, Mumps, Rubella) dose 2",                      "status":"active"},
-        {"id":"who_dtp_boost1_028",  "name":"DTP Booster-1",      "age_months":15,  "age_label":"15-18 months", "duration_label":"7th Visit",  "description":"DTP booster dose 1",                                        "status":"active"},
-        {"id":"who_hpv1_033",        "name":"HPV-1",              "age_months":108, "age_label":"9+ years",     "duration_label":"8th Visit",  "description":"Human Papillomavirus dose 1 (girls, from 9 yrs)",           "status":"active"},
-        {"id":"who_hpv2_034",        "name":"HPV-2",              "age_months":114, "age_label":"9-14 years",   "duration_label":"8th Visit",  "description":"Human Papillomavirus dose 2 (6-12 months after dose 1)",    "status":"active"},
-        {"id":"who_td_boost_035",    "name":"Td Booster",         "age_months":132, "age_label":"9-15 years",   "duration_label":"9th Visit",  "description":"Tetanus-Diphtheria booster, adolescence",                   "status":"active"}
+        {
+          "id": "who_bcg_001",
+          "name": "BCG",
+          "age_months": 0,
+          "age_label": "Birth",
+          "duration_label": "1st Visit",
+          "description": "Tuberculosis (BCG)",
+          "status": "active"
+        },
+        {
+          "id": "who_hepb_birth_002",
+          "name": "Hepatitis B (Birth)",
+          "age_months": 0,
+          "age_label": "Birth",
+          "duration_label": "1st Visit",
+          "description": "Hepatitis B first dose (within 24h)",
+          "status": "active"
+        },
+        {
+          "id": "who_opv_birth_003",
+          "name": "OPV (Birth)",
+          "age_months": 0,
+          "age_label": "Birth",
+          "duration_label": "1st Visit",
+          "description": "Oral Polio Vaccine birth dose",
+          "status": "active"
+        },
+        {
+          "id": "who_dtp1_004",
+          "name": "DTP-1",
+          "age_months": 2,
+          "age_label": "6 weeks",
+          "duration_label": "2nd Visit",
+          "description": "Diphtheria, Tetanus, Pertussis dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_bopv1_005",
+          "name": "bOPV-1",
+          "age_months": 2,
+          "age_label": "6 weeks",
+          "duration_label": "2nd Visit",
+          "description": "Oral Polio Vaccine (bOPV) dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_hib1_006",
+          "name": "Hib-1",
+          "age_months": 2,
+          "age_label": "6 weeks",
+          "duration_label": "2nd Visit",
+          "description": "Haemophilus influenzae type b dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_pcv1_007",
+          "name": "PCV-1",
+          "age_months": 2,
+          "age_label": "6 weeks",
+          "duration_label": "2nd Visit",
+          "description": "Pneumococcal Conjugate Vaccine dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_rota1_008",
+          "name": "Rotavirus-1",
+          "age_months": 2,
+          "age_label": "6 weeks",
+          "duration_label": "2nd Visit",
+          "description": "Rotavirus vaccine dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_dtp2_009",
+          "name": "DTP-2",
+          "age_months": 3,
+          "age_label": "10 weeks",
+          "duration_label": "3rd Visit",
+          "description": "Diphtheria, Tetanus, Pertussis dose 2",
+          "status": "active"
+        },
+        {
+          "id": "who_bopv2_010",
+          "name": "bOPV-2",
+          "age_months": 3,
+          "age_label": "10 weeks",
+          "duration_label": "3rd Visit",
+          "description": "Oral Polio Vaccine (bOPV) dose 2",
+          "status": "active"
+        },
+        {
+          "id": "who_hib2_011",
+          "name": "Hib-2",
+          "age_months": 3,
+          "age_label": "10 weeks",
+          "duration_label": "3rd Visit",
+          "description": "Haemophilus influenzae type b dose 2",
+          "status": "active"
+        },
+        {
+          "id": "who_pcv2_012",
+          "name": "PCV-2",
+          "age_months": 3,
+          "age_label": "10 weeks",
+          "duration_label": "3rd Visit",
+          "description": "Pneumococcal Conjugate Vaccine dose 2",
+          "status": "active"
+        },
+        {
+          "id": "who_rota2_013",
+          "name": "Rotavirus-2",
+          "age_months": 3,
+          "age_label": "10 weeks",
+          "duration_label": "3rd Visit",
+          "description": "Rotavirus vaccine dose 2",
+          "status": "active"
+        },
+        {
+          "id": "who_dtp3_014",
+          "name": "DTP-3",
+          "age_months": 4,
+          "age_label": "14 weeks",
+          "duration_label": "4th Visit",
+          "description": "Diphtheria, Tetanus, Pertussis dose 3",
+          "status": "active"
+        },
+        {
+          "id": "who_bopv3_015",
+          "name": "bOPV-3",
+          "age_months": 4,
+          "age_label": "14 weeks",
+          "duration_label": "4th Visit",
+          "description": "Oral Polio Vaccine (bOPV) dose 3",
+          "status": "active"
+        },
+        {
+          "id": "who_ipv1_016",
+          "name": "IPV-1",
+          "age_months": 4,
+          "age_label": "14 weeks",
+          "duration_label": "4th Visit",
+          "description": "Inactivated Polio Vaccine dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_hib3_017",
+          "name": "Hib-3",
+          "age_months": 4,
+          "age_label": "14 weeks",
+          "duration_label": "4th Visit",
+          "description": "Haemophilus influenzae type b dose 3",
+          "status": "active"
+        },
+        {
+          "id": "who_pcv3_018",
+          "name": "PCV-3",
+          "age_months": 4,
+          "age_label": "14 weeks",
+          "duration_label": "4th Visit",
+          "description": "Pneumococcal Conjugate Vaccine dose 3",
+          "status": "active"
+        },
+        {
+          "id": "who_mcv1_021",
+          "name": "MCV-1 (Measles)",
+          "age_months": 9,
+          "age_label": "9 months",
+          "duration_label": "5th Visit",
+          "description": "Measles-containing vaccine dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_rubella_022",
+          "name": "Rubella",
+          "age_months": 9,
+          "age_label": "9 months",
+          "duration_label": "5th Visit",
+          "description": "Rubella (given with MCV1 as MR vaccine)",
+          "status": "active"
+        },
+        {
+          "id": "who_typhoid_023",
+          "name": "Typhoid (TCV)",
+          "age_months": 9,
+          "age_label": "9 months",
+          "duration_label": "5th Visit",
+          "description": "Typhoid Conjugate Vaccine (TCV)",
+          "status": "active"
+        },
+        {
+          "id": "who_hepa1_025",
+          "name": "Hepatitis A-1",
+          "age_months": 12,
+          "age_label": "12 months",
+          "duration_label": "6th Visit",
+          "description": "Hepatitis A dose 1 (12 months+)",
+          "status": "active"
+        },
+        {
+          "id": "who_varicella1_026",
+          "name": "Varicella-1",
+          "age_months": 12,
+          "age_label": "12 months",
+          "duration_label": "6th Visit",
+          "description": "Chickenpox (Varicella) dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_mcv2_027",
+          "name": "MCV-2 (MMR)",
+          "age_months": 15,
+          "age_label": "15-18 months",
+          "duration_label": "7th Visit",
+          "description": "MMR (Measles, Mumps, Rubella) dose 2",
+          "status": "active"
+        },
+        {
+          "id": "who_dtp_boost1_028",
+          "name": "DTP Booster-1",
+          "age_months": 15,
+          "age_label": "15-18 months",
+          "duration_label": "7th Visit",
+          "description": "DTP booster dose 1",
+          "status": "active"
+        },
+        {
+          "id": "who_hpv1_033",
+          "name": "HPV-1",
+          "age_months": 108,
+          "age_label": "9+ years",
+          "duration_label": "8th Visit",
+          "description": "Human Papillomavirus dose 1 (girls, from 9 yrs)",
+          "status": "active"
+        },
+        {
+          "id": "who_hpv2_034",
+          "name": "HPV-2",
+          "age_months": 114,
+          "age_label": "9-14 years",
+          "duration_label": "8th Visit",
+          "description": "Human Papillomavirus dose 2 (6-12 months after dose 1)",
+          "status": "active"
+        },
+        {
+          "id": "who_td_boost_035",
+          "name": "Td Booster",
+          "age_months": 132,
+          "age_label": "9-15 years",
+          "duration_label": "9th Visit",
+          "description": "Tetanus-Diphtheria booster, adolescence",
+          "status": "active"
+        }
       ]
     }
   }
